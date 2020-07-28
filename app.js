@@ -53,13 +53,9 @@ function shortOne() {
 
   finalSum = parsedSecond.reduce((a, b) => a + b, 0);
 
-  if (sum === 7) {
+  if (sum === 7 || finalSum === 7) {
     alert("success");
   } else {
-    if (finalSum === 7) {
-      alert("success");
-    } else {
-      alert("fail");
-    }
+    alert("fail");
   }
 }
