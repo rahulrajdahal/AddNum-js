@@ -3,52 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kusum KO JS</title>
-    <!-- 
-    <div class="div-group">
-      <label for="">Enter a 6 digit Number</label>
-      <input type="text" class="form-control" id="takeValue" />
-    </div>
-
-    <button class="btn-btn-success" oncliCK="DigitSum()">Get Sum</button>
-
-    <div id="para"></div>
-
-    <script src="app.js"></script> -->
+    <title>Add Numbers JS</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="div-group">
-      <label for="">Enter a 6 digit Number</label>
-      <input type="text" class="form-control" id="takeValue" />
-      <input type="text" class="form-control" id="firstSum" />
+    <div class="container">
+      <h1 class="title">Add Numbers</h1>
+      <p class="description">Add numbers to and see the result.</p>
+
+      <div class="form__container">
+        <div class="input__container">
+          <label class="input__label" for="firstNum"> First Number </label>
+          <input
+            class="input__input"
+            type="number"
+            name="firstNum"
+            placeholder="1"
+            id="firstNum"
+            required
+          />
+        </div>
+
+        <div class="input__container">
+          <label class="input__label" for="secondNum"> Second Number </label>
+          <input
+            class="input__input"
+            type="number"
+            name="secondNum"
+            placeholder="2"
+            id="secondNum"
+            required
+          />
+        </div>
+
+        <div class="input__container">
+          <label for="result" class="input__label result__label">
+            Result
+          </label>
+          <input
+            type="number"
+            class="input__input result"
+            name="result"
+            placeholder="3"
+            id="result"
+          />
+        </div>
+
+        <button type="button" onclick="addNumbers()" class="form__button">
+          Add
+        </button>
+      </div>
     </div>
 
-    <button class="btn-btn-success" oncliCK="shortOne()">Get Sum</button>
-
-    <div id="para"></div>
-    <div id="para2"></div>
-
-    <!-- <div>
-      <div>
-        <h1>Add two number using text box as input using javascript</h1>
-      </div>
-      Enter First Number : <br />
-      <input type="text" id="Text1" name="TextBox1" />
-      <br />
-      Enter Second Number : <br />
-      <input type="text" id="Text2" name="TextBox2" />
-      <br />
-      Result : <br />
-      <input type="text" id="txtresult" name="TextBox3" />
-      <br />
-      <input
-        type="button"
-        name="clickbtn"
-        value="Display Result"
-        onclick="add_number()"
-      />
-    </div> -->
-
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
