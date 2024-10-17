@@ -41,7 +41,6 @@
             Result
           </label>
           <input
-            type="number"
             class="input__input result"
             name="result"
             placeholder="3"
@@ -49,9 +48,36 @@
           />
         </div>
 
-        <button type="button" onclick="addNumbers()" class="form__button">
-          Add
-        </button>
+        <div class="buttons__container">
+          <button
+            type="button"
+            onclick="addNumbers()"
+            class="form__button btn__primary"
+          >
+            Add
+          </button>
+          <button
+            type="button"
+            onclick="subtractNumbers()"
+            class="form__button btn__secondary"
+          >
+            Subtract
+          </button>
+          <button
+            type="button"
+            onclick="multiplyNumbers()"
+            class="form__button btn__info"
+          >
+            Multiply
+          </button>
+          <button
+            type="button"
+            onclick="divideNumbers()"
+            class="form__button btn__warning"
+          >
+            Divide
+          </button>
+        </div>
       </div>
     </div>
 

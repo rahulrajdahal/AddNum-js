@@ -1,3 +1,11 @@
+:root {
+  --primary-color: rgb(92, 92, 223);
+  --secondary-color: rgb(102, 91, 91);
+  --info-color: rgb(43, 101, 121);
+  --warning-color: rgb(207, 207, 71);
+  --danger-color: rgb(165, 22, 22);
+}
+
 :root,
 html,
 body,
@@ -65,7 +73,30 @@ body,
   border: none;
   outline: none;
 
+  color: white;
+
   &:hover {
     cursor: pointer;
   }
+}
+
+.buttons__container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btn__primary {
+  background-color: var(--primary-color);
+}
+.btn__secondary {
+  background-color: var(--secondary-color);
+}
+.btn__info {
+  background-color: var(--info-color);
+}
+.btn__warning {
+  background-color: var(--warning-color);
 }
