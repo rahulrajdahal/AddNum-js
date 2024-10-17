@@ -1,4 +1,4 @@
-# [AddNumJS](https://github.com/rahulrajdahal/AddNum-js). Add any two numbers adn view the Results
+# [AddNumJS](https://github.com/rahulrajdahal/AddNum-js). Add any two numbers and view the Results
 
 Add two numbers and instantly get the results.
 
@@ -8,7 +8,7 @@ Add two numbers and instantly get the results.
 
 ## 🏗 Development Guide
 
-### 1. clone the repository
+### 1. Clone the repository
 
 ```sh
 git clone https://github.com/rahulrajdahal/AddNum-js.git
@@ -22,7 +22,7 @@ open index.html in your browser
 
 ## 🚀 Project Structure
 
-Inside of project [AddNumJS](https://github.com/rahulrajdahal/AddNum-js), you'll see the following folders and files:
+Inside project [AddNumJS](https://github.com/rahulrajdahal/AddNum-js), you'll see the following folders and files:
 
 ```text
 /
